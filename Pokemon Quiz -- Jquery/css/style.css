@@ -1,0 +1,168 @@
+
+body {
+	background:#a0d7e8;
+	background-image: url('../images/background.png');
+	background-attachment: fixed;
+	color:#fff;
+	font-family:'Arial', sans-serif;
+	font-size:14px;
+	
+}
+
+#container {
+	width:60%;
+	background-image: url('../images/mewtwo.png');
+	margin:20px auto;
+	overflow: auto;
+	padding:25px;
+	border-radius: 20px;
+}
+
+#initial {
+	width:60%;
+	margin:20px auto;
+	overflow: auto;
+	padding:25px;
+}
+header{
+	text-align:center;
+	/*border-bottom:#fff dashed 1px;*/
+}
+
+header h1{
+	margin:0;
+	padding:0;
+	
+}
+
+#results {
+	color: red;
+}
+#results2 {
+	color: red;
+}
+
+.hintdivstyle {
+
+	font-weight: bold;
+	color: #a0d7e8;
+
+}
+
+#q1hint {
+    width: 450px;
+    height: 30px;
+    font-weight: bold;
+	color: #a0d7e8;
+    display: none;
+}
+
+#q2hint {
+    width: 450px;
+    height: 30px;
+    font-weight: bold;
+	color: #a0d7e8;
+    display: none;
+}
+#q3hint {
+    width: 450px;
+    height: 30px;
+    font-weight: bold;
+	color: #a0d7e8;
+    display: none;
+}
+#q4hint {
+    width: 450px;
+    height: 30px;
+    font-weight: bold;
+	color: #a0d7e8;
+    display: none;
+}
+#q5hint {
+    width: 450px;
+    height: 30px;
+    font-weight: bold;
+	color: #a0d7e8;
+    display: none;
+}
+.welcomeclass {
+    font-weight: bold;
+	color: #a0d7e8;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+#perfect {
+	color: red;
+}
+
+#pokeball {
+	width: 50px;
+	height: 50px;
+}
+
+#hint1, #hint2, #hint3, #hint4, #hint5 {
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+}
+
+#btn, #begin{
+	font-weight: bold;
+	color: white;
+	background-color: rgb(53, 173, 16);
+	border: 2px solid green;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 450ms;
+}
+
+#btn:hover, #begin:hover, input[type=radio]:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+
+input[type=radio] {
+	width: 25px;
+	height: 25px;
+	transition: 450ms;
+	
+}
+
+#start {
+	text-align:center;
+	border-bottom:#fff dashed 1px;
+}
+
+#small {
+	width: 40px;
+	height: 40px;
+}
+
+#message {
+	color: #a0d7e8;
+	font-weight: bold;
+}
+
+#heading {
+	border-bottom: 2px solid pink;
+}
+
+#pgif {
+	width: 170px;
+}
+
+.poke {
+	padding: 10px;
+	transition: 450ms;
+}
+
+.poke:hover {
+	transform: scale(1.1);
+}
